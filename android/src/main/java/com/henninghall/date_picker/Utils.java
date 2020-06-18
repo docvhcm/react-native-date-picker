@@ -19,7 +19,8 @@ import java.util.TimeZone;
 public class Utils {
 
     public static boolean usesAmPm(){
-        return !DateFormat.is24HourFormat(DatePickerManager.context);
+        // return !DateFormat.is24HourFormat(DatePickerManager.context);
+        return false;
     }
 
     public static String printToday(Locale locale) {
