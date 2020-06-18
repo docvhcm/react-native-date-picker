@@ -35,7 +35,8 @@ public class MonthWheel extends Wheel
 
     @Override
     public String getFormatPattern() {
-        return "LLLL";
+        // return "LLLL";
+        return "MM";
     }
 
     @Override
